@@ -1,0 +1,11 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media (min-width: $min-desktop) {
+    .container {
+        max-width: unset;
+        padding: 0 150px;
+    }
+}
